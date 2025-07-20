@@ -14,9 +14,9 @@
   --fs-lg: 3rem;
 
   /* colors */
-  --color-bg: 220 40% 99%;
-  --color-text: 220 30% 8%;
-  --color-accent: 220 60% 70%;
+  --color-bg: 45 29% 97%;
+  --color-text: 0 0% 11%;
+  --color-accent: 105 100% 35%;
 
   /* sizing */
   --space-2: 0.2rem;
@@ -59,7 +59,8 @@ main{
 
 [type="text"] {
   font: inherit;
-  border: 1px solid hsl(var(--color-text)/0.4);
+  color: var(--color-text);
+  border: 2px solid hsl(var(--color-text)/0.6);
   border-radius: var(--rounded-sm);
   background-color: hsl(var(--color-bg));
   padding: var(--space-3) var(--space-4);
@@ -140,8 +141,8 @@ main{
   cursor: pointer;
   width: var(--checkbox-size);
   aspect-ratio: 1/1;
-  display: grid;
-  place-items: center;
+  display: flex;
+  justify-content: center;
   border-radius: var(--rounded-sm);
   transition: opacity 200ms ease-in-out, box-shadow 200ms ease-in-out;
   &:is(:hover, :focus-visible) {
