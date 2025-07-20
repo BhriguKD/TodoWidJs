@@ -29,4 +29,4 @@ How to Use
 
 Acknowledgements
 
-This project was inspired by and built with the help of the fantastic tutorial by "Code With D" on YouTube. You can check out the video here: Build a Simple To-Do App with HTML, CSS, and JavaScript
+This project was inspired by and built with the help of the fantastic tutorial by "Coding in Public" on YouTube. You can check out the video here: [Modern JavaScript TODO app](https://youtu.be/VjrNDF5bZf4?si=8Mwor8EzypkjAtwr)
